@@ -122,9 +122,9 @@ local themeStyles = {
     RAGE = {
         SchemeColor = Color3.fromRGB(255, 26, 26),
         Background = Color3.fromRGB(255, 26, 26),
-        Header = Color3.fromRGB(22, 29, 31),
+        Header = Color3.fromRGB(255, 26, 26),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(22, 29, 31)
+        ElementColor = Color3.fromRGB(255, 26, 26)
     }
 }
 local oldTheme = ""
