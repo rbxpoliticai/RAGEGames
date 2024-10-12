@@ -121,10 +121,10 @@ local themeStyles = {
     },
     RAGE = {
         SchemeColor = Color3.fromRGB(255, 26, 26),
-        Background = Color3.fromRGB(255, 26, 26),
-        Header = Color3.fromRGB(255, 26, 26),
+        Background = Color3.fromRGB(255, 52, 52),
+        Header = Color3.fromRGB(255, 52, 52),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(255, 26, 26)
+        ElementColor = Color3.fromRGB(255, 104, 104)
     }
 }
 local oldTheme = ""
@@ -305,7 +305,7 @@ function Kavo.CreateLib(kavName, themeList)
     MainSide.BackgroundColor3 = themeList.Header
     Objects[MainSide] = "Header"
     MainSide.Position = UDim2.new(-7.4505806e-09, 0, 0.0911949649, 0)
-    MainSide.Size = UDim2.new(0, 149, 0, 289)
+    MainSide.Size = UDim2.new(0, 149, 0, 477)
 
     sideCorner.CornerRadius = UDim.new(0, 4)
     sideCorner.Name = "sideCorner"
@@ -336,7 +336,7 @@ function Kavo.CreateLib(kavName, themeList)
     pages.BackgroundTransparency = 1.000
     pages.BorderSizePixel = 0
     pages.Position = UDim2.new(0.299047589, 0, 0.122641519, 0)
-    pages.Size = UDim2.new(0, 360, 0, 269)
+    pages.Size = UDim2.new(0, 360, 0, 450)
 
     Pages.Name = "Pages"
     Pages.Parent = pages
