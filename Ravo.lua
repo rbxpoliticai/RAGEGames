@@ -411,7 +411,7 @@ function Kavo.CreateLib(kavName, themeList)
 
         tabButton.Name = tabName.."TabButton"
         tabButton.Parent = tabFrames
-        tabButton.BackgroundColor3 = themeList.SchemeColor
+        tabButton.BackgroundColor3 = themeList.ElementColor
         Objects[tabButton] = "SchemeColor"
         tabButton.Size = UDim2.new(0, 135, 0, 28)
         tabButton.AutoButtonColor = false
@@ -522,7 +522,7 @@ function Kavo.CreateLib(kavName, themeList)
             end
             sectionHead.Name = "sectionHead"
             sectionHead.Parent = sectionFrame
-            sectionHead.BackgroundColor3 = themeList.SchemeColor
+            sectionHead.BackgroundColor3 = themeList.ElementColor
             Objects[sectionHead] = "BackgroundColor3"
             sectionHead.Size = UDim2.new(0, 352, 0, 33)
 
@@ -566,9 +566,9 @@ function Kavo.CreateLib(kavName, themeList)
         coroutine.wrap(function()
             while wait() do
                 sectionFrame.BackgroundColor3 = themeList.Background
-                sectionHead.BackgroundColor3 = themeList.SchemeColor
+                sectionHead.BackgroundColor3 = themeList.ElementColor
                 tabButton.TextColor3 = themeList.TextColor
-                tabButton.BackgroundColor3 = themeList.SchemeColor
+                tabButton.BackgroundColor3 = themeList.ElementColor
                 sectionName.TextColor3 = themeList.TextColor
             end
         end)()
