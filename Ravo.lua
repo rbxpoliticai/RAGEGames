@@ -120,11 +120,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
     RAGE = {
-        SchemeColor = Color3.fromRGB(255, 104, 104),
-        Background = Color3.fromRGB(255, 52, 52),
-        Header = Color3.fromRGB(255, 104, 104),
+        SchemeColor = Color3.fromRGB(255, 52, 52),
+        Background = Color3.fromRGB(255, 104, 104),
+        Header = Color3.fromRGB(255, 52, 52),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(255, 26, 26)
+        ElementColor = Color3.fromRGB(255, 52, 52)
     }
 }
 local oldTheme = ""
