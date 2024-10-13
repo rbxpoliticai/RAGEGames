@@ -304,8 +304,8 @@ function Kavo.CreateLib(kavName, themeList)
     MainSide.Parent = Main
     MainSide.BackgroundColor3 = themeList.Header
     Objects[MainSide] = "Header"
-    MainSide.Position = UDim2.new(-7.4505806e-09, 0, 0.0911949649, 0)
-    MainSide.Size = UDim2.new(0, 149, 0, 477)
+    MainSide.Position = UDim2.new(-7.4505806e-09, 0, 0, 29)
+    MainSide.Size = UDim2.new(0, 149, 0, 496)
 
     sideCorner.CornerRadius = UDim.new(0, 4)
     sideCorner.Name = "sideCorner"
@@ -335,8 +335,8 @@ function Kavo.CreateLib(kavName, themeList)
     pages.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     pages.BackgroundTransparency = 1.000
     pages.BorderSizePixel = 0
-    pages.Position = UDim2.new(0.299047589, 0, 0.122641519, 0)
-    pages.Size = UDim2.new(0, 360, 0, 450)
+    pages.Position = UDim2.new(0.299047589, 0, 0, 36)
+    pages.Size = UDim2.new(0, 360, 0, 489)
 
     Pages.Name = "Pages"
     Pages.Parent = pages
