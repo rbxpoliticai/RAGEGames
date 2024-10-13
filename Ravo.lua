@@ -2624,7 +2624,7 @@ function Kavo.CreateLib(kavName, themeList)
                 UICorner.Parent = label
             	
 	            if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
-	                Utility:TweenObject(label, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
+	                Utility:TweenObject(label, {TextColor3 = Color3.fromRGB(150,150,150)}, 0.2)
 	            end 
 	            if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
 	                Utility:TweenObject(label, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
